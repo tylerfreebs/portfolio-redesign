@@ -1,15 +1,10 @@
-:root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85);
-    --menu-speed: 0.75s;
-}
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #F0FFFF;
+    background-color: #ffffff;
+    /* background-color: #F8F7F9; */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,11 +18,11 @@ a {
 }
 
 a:hover {
-    color: #48D1CC;
+    color: #ff715b;
   }
 
 .title {
-    color: #000000;
+    color: #242423;
     font-family: 'Lato', sans-serif;
     text-align: left;
     font-size: 28px;
@@ -40,33 +35,47 @@ a:hover {
 .title > h2 {
     font-size: 26px;
     line-height: 25px;
+    margin-bottom: 85px;
 }
 
-.bioTitle {
-    font-family: 'Lato', sans-serif;
-    color: #191970;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: underline;
-    margin-top: 80px;
+.bio {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #ff715b;
+    height: 300px;
 }
 
-.bioParaOne, .bioParaTwo {
+.bioParaOne {
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+    color: #242423;
     margin-left: 30px;
     margin-right: 30px;
     padding-left: 2px;
     padding-right: 2px;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
+    width: 75%;
+    margin-top: 50px;
+    text-align: center;
 }
 
+#skills {
+   
+}
+
+#proj_one_button {
+    margin-top: 25px;
+}
 
 #projectOne{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#proj_two_button {
+    margin-top: 25px;
 }
 
 #projectTwo{
@@ -77,7 +86,7 @@ a:hover {
 
 .projTitle {
     font-family: 'Lato', sans-serif;
-    color: #191970;
+    color: #333533;
     text-align: center;
     font-size: 30px;
     text-decoration: underline;
@@ -86,7 +95,7 @@ a:hover {
 
 .projName{
     font-family: 'Lato', sans-serif;
-    color: #000000;
+    color: #242423;
     padding-left: 2px;
     padding-right: 2px;
     text-align: center;
@@ -112,7 +121,7 @@ a:hover {
 }
 
 .links {
-    color: #4682B4;
+    color: #7CA29E;
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
@@ -121,7 +130,7 @@ a:hover {
 
 .techDescrip {
     font-family: 'Lato', sans-serif;
-    color: #708090;
+    color: #333533;
     padding-left: 2px;
     padding-right: 2px;
     font-size: 22px;
@@ -130,7 +139,7 @@ a:hover {
 
 .projDescrip {
     font-family: 'Roboto', sans-serif;
-    color: #000000;
+    color: #242423;
     margin-left: 30px;
     margin-right: 30px;
     padding-left: 2px;
@@ -316,6 +325,4 @@ a:hover {
       margin-top: -20px;
       text-decoration: none;
   }
-
-
 }
