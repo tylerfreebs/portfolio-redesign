@@ -42,15 +42,15 @@ a:hover {
     display: flex;
     justify-content: center;
     align-content: center;
-    background-color: #ff715b;
+    /* background-color: #ff715b; */
     height: 300px;
 }
 
 .bioParaOne {
     font-family: 'Roboto', sans-serif;
     color: #242423;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-left: 2px;
     padding-right: 2px;
     font-size: 22px;
@@ -60,9 +60,9 @@ a:hover {
     text-align: center;
 }
 
-#skills {
+/* #skills {
    
-}
+} */
 
 #proj_one_button {
     margin-top: 25px;
