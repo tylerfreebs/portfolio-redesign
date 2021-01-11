@@ -4,7 +4,6 @@
 
 body {
     background-color: #ffffff;
-    /* background-color: #F8F7F9; */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +18,7 @@ a {
 
 a:hover {
     color: #ff715b;
-  }
+}
 
 .title {
     color: #242423;
@@ -38,11 +37,11 @@ a:hover {
     margin-bottom: 85px;
 }
 
+
 .bio {
     display: flex;
     justify-content: center;
     align-content: center;
-    /* background-color: #ff715b; */
     height: 300px;
 }
 
@@ -60,12 +59,38 @@ a:hover {
     text-align: center;
 }
 
-/* #skills {
-   
-} */
-
 #proj_one_button {
     margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+#viewMoreOne-btn{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    
+}
+
+#viewMoreOne-btn:hover{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ff715b;
+    
+}
+
+#viewLessOne-btn{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+#viewLessOne-btn:hover{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ff715b;
+    
 }
 
 #projectOne{
@@ -76,6 +101,35 @@ a:hover {
 
 #proj_two_button {
     margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#viewMoreTwo-btn{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ffffff;
+    transition-duration: 0.4s;
+    
+}
+
+#viewMoreTwo-btn:hover{
+    border-radius: 8px;
+    background-color: #333533;
+    color: #ff715b;
+    
+}
+
+#viewLessTwo-btn{
+    border-radius: 12px;
+    background-color: #333533;
+    color: #ffffff;
+    transition-duration: 0.4s;
+}
+#viewLessTwo-btn:hover{
+    border-radius: 12px;
+    background-color: #333533;
+    color: #ff715b;
+    
 }
 
 #projectTwo{
@@ -137,7 +191,17 @@ a:hover {
     text-align: center;
 }
 
-.projDescrip {
+.projDescripOne {
+    font-family: 'Roboto', sans-serif;
+    color: #242423;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.projDescripTwo {
     font-family: 'Roboto', sans-serif;
     color: #242423;
     margin-left: 30px;
@@ -167,11 +231,12 @@ a:hover {
     font-size: 20px;
 }
 
+
 .social {
     height: 50px;
     width: 55px;
     margin-right: 20px;
-    background-color: #F5FFFA;
+    background-color: #ffffff;
     margin-top: -20px;
     text-decoration: none;
 }
@@ -321,7 +386,7 @@ a:hover {
       height: 50px;
       width: 55px;
       margin-right: 20px;
-      background-color: #F5FFFA;
+      background-color: #ffffff;
       margin-top: -20px;
       text-decoration: none;
   }
